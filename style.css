@@ -7,6 +7,7 @@ body {
 }
 ul {
     list-style: none;
+    padding: 0px;
 }
 .container {
     height: 100vh;
@@ -143,6 +144,21 @@ button:hover {
     filter: invert(1);
     display: inline-block;
     margin-right: 8px;
+    align-self: center;
+
+}
+
+.sidebar li {
+    display: flex;
+    height: 2rem;
+    padding-left: 2rem;
+    align-items: center;
+}
+
+.sidebar li:hover {
+    cursor: pointer;
+    background: #5ea3a3;
+    transition: 0.1ms;
 }
 
 .title h3 {
