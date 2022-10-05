@@ -50,6 +50,17 @@ ul {
     border: none;
     background:#add2c9;
 }
+
+.search:focus {
+    transform: scale(1.04);
+
+    transition: 0.07ms;
+    color:#faf9f9;
+    background:#488b8f;
+    font-size: 0.8rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
 .navTopRight {
     display: flex;
     align-items: center;
@@ -105,6 +116,7 @@ button {
     background: #488b8f;
     color:#faf9f9; 
     font-family: 'Nunito', sans-serif;
+    font-weight: bold;
     border-radius: 10px;
     padding: 3px 15px;
     margin-left: 15px;
@@ -114,6 +126,7 @@ button {
 button:hover {
     background: #5ea3a3;
     cursor: pointer;
+    transform: scale(1.03);
     transition: 0.07ms;
 }
 
